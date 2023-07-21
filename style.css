@@ -336,7 +336,7 @@
 
 .trending-item {
   display: grid;
-  grid-template-columns: 0.2fr 0.4fr 2fr 1fr;
+  grid-template-columns: 0.4fr 0.6fr 6fr 1fr .5fr;
   gap: 1em;
   margin: 1em;
 }
@@ -371,6 +371,13 @@
 .trending-item_play > i {
   font-size: 2.4em;
   color: var(--secondary-color);
+}
+
+.trending-item-options {
+  display: flex;
+  align-items: center;
+  color: var(--grey-dark-3);
+
 }
 /*
 
