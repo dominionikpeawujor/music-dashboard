@@ -192,11 +192,21 @@
 .song-controls {
   display: flex;
   justify-content: center;
+  gap: 0.7em;
+  align-items: center;
 }
 
-.song-controls > .fa-circle-pause {
+.song-controls > i {
   color: var(--white);
-  font-size: 3em;
+  font-size: 2.5em;
+}
+
+.song-controls > .fa-backward-step{
+  font-size: 1.4em;
+}
+
+.song-controls> .fa-forward-step {
+  font-size: 1.4em;
 }
 
 .left-header {
