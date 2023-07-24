@@ -97,6 +97,7 @@
 .menu > .menu-items {
   line-height: 2em;
   font-size: 0.9em;
+  cursor: pointer;
 }
 
 .menu > .menu-items:hover {
@@ -291,6 +292,7 @@
 .sub-header > p {
   color: var(--grey-dark-3);
   font-size: 0.8em;
+  cursor: pointer;
 }
 
 .playlist-carousel {
@@ -310,6 +312,7 @@
   height: 9em;
   object-fit: cover;
   border-radius: 20px;
+  z-index: 98;
 }
 
 .playlist-carousel_song-controls {
@@ -324,6 +327,7 @@
   margin-top: -5em;
   margin: -4.5em 0.3em 0;
   border-radius: 20px;
+  z-index: 99;
 }
 
 .carousel_song-controls {
